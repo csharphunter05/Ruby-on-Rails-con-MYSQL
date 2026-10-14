@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: RoR
+  database: Datos_estuadiente
 
 test:
   <<: *default
-  database: App_mysql_test
+  database: Datos_estuadiente_test
 
 production:
   <<: *default
-  database: App_mysql_production
+  database: Datos_estuadiente_production
